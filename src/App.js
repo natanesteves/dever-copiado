@@ -4,6 +4,10 @@ import "./styles.css";
 
 import api from "./services/api";
 
+function nada(){
+  
+}
+
 function App() {
   const [repositories, setRepositories] = useState([]);
 
@@ -36,6 +40,7 @@ function App() {
      repository => repository.id !== id
    ))
   }
+
 
   return (
     <div>
