@@ -4,10 +4,6 @@ import "./styles.css";
 
 import api from "./services/api";
 
-function nada(){
-  
-}
-
 function App() {
   const [repositories, setRepositories] = useState([]);
 
